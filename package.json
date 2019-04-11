@@ -1,0 +1,29 @@
+{
+  "name": "simple-checker",
+  "version": "0.0.2-alpha.1",
+  "description": "a simple JavaScript validation library",
+  "main": "dist/object-validator.js",
+  "scripts": {
+    "test:unit": "npx jest",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "validator",
+    "validate",
+    "checker"
+  ],
+  "author": "xdm (fuq_pr@163.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "jest": "^24.7.1",
+    "webpack": "^4.29.6"
+  }
+}
